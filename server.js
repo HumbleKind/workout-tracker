@@ -19,8 +19,8 @@ mongoose.connect(
     }
 );
 
-// QUESTION: is this 'route' required?
-// app.use(require("./routes/api"));
+app.use(require("./routes/api-routes.js"));
+app.use(require("./routes/html-routes.js"));
 
 app.listen(PORT, () => {
     console.log("App running on port " + PORT + "!");
