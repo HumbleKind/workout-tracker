@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 mongoose.connect(
-    "mongodb+srv://HumbleKind:M0ng0dbAt1a5@cluster0.hbick.mongodb.net/workout?retryWrites=true&w=majority",
+    process.env.MONGODB_URI || 'mongodb://localhost/workout',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
