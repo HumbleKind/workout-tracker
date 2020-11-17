@@ -1,16 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
+const app = express();
 const PORT = process.env.PORT || 3000;
 
-const app = express();
-
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static("public"));
+const MONGODB_URI = "mongodb+srv://HumbleKind:M0ng0dbAt1a5@cluster0.hbick.mongodb.net/workout?retryWrites=true&w=majority"
 
 mongoose.connect(
-    "mongodb+srv://HumbleKind:M0ng0dbAt1a5@cluster0.hbick.mongodb.net/workout?retryWrites=true&w=majority",
+    process.env.MONGODB_URI || 'mongodb://localhost/workout',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -18,6 +15,10 @@ mongoose.connect(
       useFindAndModify: false
     }
 );
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static("public"));
 
 app.use(require("./routes/api-routes.js"));
 app.use(require("./routes/html-routes.js"));
