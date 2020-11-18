@@ -29,7 +29,7 @@ Users are able to:
 ![Workout Tracker](screen-shot_3.png)
 
 ## License
-This application is covered under the **MIT** license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
+This application is covered under the **MIT** license. A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 ## Contributing
 Please refer to the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
