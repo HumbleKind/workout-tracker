@@ -3,7 +3,7 @@
 ![License Badge](https://img.shields.io/badge/lisence-MIT-green)
 
 ## Description
-This Workout Tracker app allows users to view, create, and track daily workouts, each containing a subset log of multiple exercises on any given day.
+This app allows users to view, create, and track workouts, each containing a subset log of multiple exercises on any given day.
 
 Workout data is maintained in a Mongo database (with a Mongoose schema and Express routing). Each exercise logged within a workout tracks the name, type, weight, sets, reps, and duration. If the exercise is cardio, distance traveled is also tracked.
 
