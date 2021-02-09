@@ -2,6 +2,14 @@
 
 ![License Badge](https://img.shields.io/badge/lisence-MIT-green)
 
+## Table of Contents
+* [Description](#description)
+* [Deployed Link](#deployed)
+* [Screen Shots](#screen)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
+
 ## Description
 This app allows users to view, create, and track workouts, each containing a subset log of multiple exercises on any given day.
 
@@ -13,17 +21,10 @@ Users are able to:
 * Add new exercises to a new workout plan.
 * View the combined weight of multiple exercises on the `stats` page.
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Questions](#questions)
-
-## Installation
+## Deployed Link
 [Workout Tracker App Link](https://cs-workout-tracker.herokuapp.com/)
 
-## Usage
+## Screen Shots
 ![Workout Tracker](screen-shot_1.png)
 ![Workout Tracker](screen-shot_2.png)
 ![Workout Tracker](screen-shot_3.png)
