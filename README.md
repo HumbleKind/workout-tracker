@@ -2,15 +2,18 @@
 
 ![License Badge](https://img.shields.io/badge/lisence-MIT-green)
 
+## Description
+This app allows users to view, create, and track workouts, each containing a subset log of multiple exercises on any given day.
+
 ## Table of Contents
-* [Description](#description)
-* [Deployed Link](#deployed)
-* [Screen Shots](#screen)
+* [Summary](#summary)
+* [Deployed](#deployed)
+* [Images](#images)
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
 
-## Description
+## Summary
 This app allows users to view, create, and track workouts, each containing a subset log of multiple exercises on any given day.
 
 Workout data is maintained in a Mongo database (with a Mongoose schema and Express routing). Each exercise logged within a workout tracks the name, type, weight, sets, reps, and duration. If the exercise is cardio, distance traveled is also tracked.
