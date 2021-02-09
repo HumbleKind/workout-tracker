@@ -24,7 +24,7 @@ Users are able to:
 * Add new exercises to a new workout plan.
 * View the combined weight of multiple exercises on the `stats` page.
 
-## Deployed Link
+## Deployed
 [Workout Tracker App Link](https://cs-workout-tracker.herokuapp.com/)
 
 ## Screen Shots
