@@ -5,6 +5,8 @@
 ## Description
 This app allows users to view, create, and track workouts, each containing a subset log of multiple exercises on any given day.
 
+Technologies: CRUD, ODM, NoSQL, MongoDB Atlas, Mongoose Schema, Node, Express, Nodemon, Heroku
+
 ## Table of Contents
 * [Summary](#summary)
 * [Deployed](#deployed)
@@ -14,8 +16,6 @@ This app allows users to view, create, and track workouts, each containing a sub
 * [Questions](#questions)
 
 ## Summary
-This app allows users to view, create, and track workouts, each containing a subset log of multiple exercises on any given day.
-
 Workout data is maintained in a Mongo database (with a Mongoose schema and Express routing). Each exercise logged within a workout tracks the name, type, weight, sets, reps, and duration. If the exercise is cardio, distance traveled is also tracked.
 
 Users are able to:
