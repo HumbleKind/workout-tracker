@@ -10,7 +10,7 @@ Technologies: CRUD, ODM, NoSQL, MongoDB Atlas, Mongoose Schema, Node, Express, N
 ## Table of Contents
 * [Summary](#summary)
 * [Deployed](#deployed)
-* [Images](#images)
+* [Screen Shots](#images)
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
@@ -27,7 +27,7 @@ Users are able to:
 ## Deployed
 [Workout Tracker App Link](https://cs-workout-tracker.herokuapp.com/)
 
-## Screen Shots
+## Images
 ![Workout Tracker](screen-shot_1.png)
 ![Workout Tracker](screen-shot_2.png)
 ![Workout Tracker](screen-shot_3.png)
